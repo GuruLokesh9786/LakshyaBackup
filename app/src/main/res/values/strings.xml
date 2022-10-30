@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lakshya</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="Career_Opportunities">CareerOpportunities"</string>
+    <string name="Set_Goals">SetGoals</string>
+    <string name="New_Habit">NewHabit"</string>
+    <string name="Habit_Tracker">HabitTracker</string>
+
+    <!-- TODO: Remove or change this placeholder text
+    <string name="Set_your_Goals">DatePicker</string>-->
+
+
+</resources>

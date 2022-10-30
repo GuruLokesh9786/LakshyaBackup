@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.fragment.app.FragmentContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Set_Goal">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+       android:id="@+id/fragment_setgoals_containers"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/Set_Goals" />
+
+    <EditText
+        android:id="@+id/GoalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/TargetDate"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Enter your Goal" />
+
+    <EditText
+        android:id="@+id/TargetDate"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="100dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Enter your Target Date" />
+
+</androidx.fragment.app.FragmentContainerView>
+
+
+

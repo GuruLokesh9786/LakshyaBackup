@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nav_CareerOppertunities"
+        android:icon="@drawable/cop5"
+        android:title="Career Oppertunities" />
+
+    <item
+        android:id="@+id/nav_Sgoals"
+        android:title="Set Goals" />
+
+    <item
+        android:id="@+id/nav_Shabit"
+        android:title="Set Habits" />
+
+    <item
+        android:id="@+id/nav_Thabit"
+        android:title="Track Habit" />
+
+    <item
+        android:id="@+id/nav_Mstories"
+        android:title="Motivational Stories" />
+
+</menu>
